@@ -1,4 +1,6 @@
 {
-  "bundler": { "enabled": true },
-  "includePaths": ["Gemfile"]
+  "extends": [
+    "config:base"
+  ],
+  "bundler": { "enabled": true }
 }
